@@ -1,0 +1,15 @@
+@mixin centerflex() {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+@mixin offerSection($offerImg) {
+	background-image: $offerImg;
+	background-position: center;
+	background-size: cover;
+}
+
+@mixin gridbox() {
+	display: grid;
+}
